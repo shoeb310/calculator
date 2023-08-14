@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+html, body{
+height: 100%;
+width: 100%;
+font-family: 'Orbitron', sans-serif;
+background-color:black;
+background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+h1{
+    color: beige;
+}
+.container{
+    background-color: none;
+    width: 330px;
+    height: 525px;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding-top: 40px;
+}
+.button{
+    width: 60px;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 0 3px;
+    background-color: rgb(34, 33, 33);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.but0{
+    width: 130px;
+}
+.row{
+    margin: 10px;
+   
+}
+
+.input{
+   height: 50px;
+   width: 260px;
+   font-size: 30px;
+   font: bold;
+   color: aliceblue;
+   
+   background-color: black;
+}
+.op{
+    background-color: orange;
+    font-size: 17px;
+}
+.C{
+    background-color: rgba(224, 9, 9, 0.754);
+}
+.del{
+    background-color: orange;
+    color: red;
+}
+.equal{
+     background-color: beige;
+     color: rgb(34, 33, 33) ;
+}
+.button:hover {
+    background-color: cyan;
+    font-size: 20px;
+}
+.op:hover {
+    background-color: rgb(92, 68, 9);
+    }
+.C:hover {
+        background-color: beige;
+        color: red;
+}
+.del:hover {
+            background-color: rgb(189, 0, 0);
+            color: white;
+}
+.equal:hover {
+                    background-color: greenyellow;
+                    font-size: 120%;
+ }
